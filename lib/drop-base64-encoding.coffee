@@ -19,11 +19,12 @@ module.exports = DropBase64Encoding =
 
         fs = require 'fs-plus'
 
-        for i in [0...files.length]
-          console.log(files[i])
-          buffer = new Buffer(fs.readFileSync(files[i].path))
-          base64String = buffer.toString('base64')
-          editor.insertText "#{base64String}"
+        for f in files
+          console.log(f)
+          if fs.lstatSync(f.path).isFile()
+            buffer = new Buffer(fs.readFileSync(f.path))
+            base64String = buffer.toString('base64')
+            editor.insertText "#{base64String}"
       )
     )
 
