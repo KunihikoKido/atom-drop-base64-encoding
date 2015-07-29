@@ -1,0 +1,16 @@
+{
+  "name": "drop-base64-encoding",
+  "main": "./lib/drop-base64-encoding",
+  "version": "0.0.0",
+  "description": "Drag and drop Attachment files (image, pdf, etc..) to Base64 encoding",
+  "keywords": [
+  ],
+  "repository": "https://github.com/KunihikoKido/atom-drop-base64-encoding",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "fs-plus": "^2.8.1"
+  }
+}
