@@ -2,4 +2,4 @@
 
 Drag and drop Attachment files (image, pdf, etc..) to Base64 encoding
 
-![overview](https://raw.githubusercontent.com/KunihikoKido/atom-base64-encoding/master/screenshots/overview.gif)
+![overview](https://raw.githubusercontent.com/KunihikoKido/atom-drop-base64-encoding/master/screenshots/overview.gif)
