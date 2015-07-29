@@ -4,7 +4,6 @@ module.exports = DropBase64Encoding =
   subscriptions: null
 
   activate: (state) ->
-    console.log("activate!")
     # Events subscribed to in atom's system can be easily cleaned up
     # with a CompositeDisposable
     @subscriptions = new CompositeDisposable
