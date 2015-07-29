@@ -1,7 +1,7 @@
 {
   "name": "drop-base64-encoding",
   "main": "./lib/drop-base64-encoding",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Drag and drop Attachment files (image, pdf, etc..) to Base64 encoding",
   "keywords": [
     "base64",
